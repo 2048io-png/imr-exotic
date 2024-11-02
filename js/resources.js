@@ -127,6 +127,13 @@ const RESOURCES_DIS = {
 
         resetBtn() { INF.goInf() },
     },
+    exotic: {
+        unl: ()=>tmp.c20reward,
+        icon: "exotic",
+        class: "red",
+
+        desc: "Coming soon."
+    },
 
     /*
     mass: {

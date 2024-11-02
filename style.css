@@ -45,6 +45,12 @@
 }
 
 @font-face {
+	font-family: 'Minecraft';
+	src: url('fonts/minecraft.otf');
+	size-adjust: 90%;
+}
+
+@font-face {
 	font-family: 'Monospace-Typewritter';
 	src: url('fonts/MonospaceTypewriter.ttf');
 	size-adjust: 85%;

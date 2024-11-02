@@ -647,16 +647,16 @@ const CHALS = {
         unl() { return hasElement(290) },
         title: "The Reality III",
         desc: "You are trapped in C1-19 and dark run with 1500 all glyphs. Theorems in the Core don't work. This challenge resets main upgrades.",
-        reward: `???.<br><span class="yellow">On first completion, unlock ???.</span>`,
+        reward: `Normal mass overflow^2 starts later.<br><span class="yellow">On first completion, unlock a new layer reaching 1.7977e308 infinity points.</span>`,
         max: E(100),
         inc: E(10),
         pow: E(1.25),
-        start: EINF,
+        start: E('e2e25'),
         effect(x) {
-            let ret = E(1)
+            let ret = x.add(1).pow(2)
             return ret
         },
-        effDesc(x) { return "???" },
+        effDesc(x) { return "^"+format(x,2)+" later" },
     },
     cols: 20,
 }
